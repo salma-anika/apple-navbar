@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
 
 html {
     font-size: 62.5%;
@@ -2032,7 +2032,7 @@ blockquote.text-white cite span {
 }
 
 .menu li>a {
-    color: black;
+    color: #fff;
     
     font-weight: 300;
     font-size: 1.3rem;
@@ -2091,8 +2091,9 @@ blockquote.text-white cite span {
 
 .menu .megamenu,
 .menu ul {
-    background-color: #fff;
-    box-shadow: 5px 10px 16px rgba(51, 51, 51, 0.05), -5px 10px 16px rgba(51, 51, 51, 0.05)
+    background-color: #333;
+    color: #fff;
+    box-shadow: 5px 10px 16px darkgrey, -5px 10px 16px #333
 }
 
 .menu ul {
@@ -2477,7 +2478,7 @@ blockquote.text-white cite span {
 }
 .cart-list:hover{
     border-bottom:1px solid grey;
-    color:black !important;
+    color: white !important;
 }
 .menu-vertical>li:hover>a,
 .menu-vertical>li.show>a,
@@ -2546,23 +2547,19 @@ blockquote.text-white cite span {
     z-index: 1001;
     background-color: #333;
     width: 100%;
+    max-width: 280px;
     overflow-y: scroll;
     box-shadow: 0.1rem 0 0.6rem 0 rgba(51, 51, 51, 0.5);
     will-change: transform;
     visibility: hidden;
     font-size: 1rem;
     line-height: 1.5;
-    transition: all 0.4s ease;
-  
+    transition: all 0.4s ease
 }
 
 .mmenu-active .mobile-menu-container {
     visibility: visible;
-    transform: translateX(280px);
-    -webkit-transform: translateX(280px);
-    -moz-transform: translateX(280px);
-    -ms-transform: translateX(280px);
-    -o-transform: translateX(280px);
+    transform: translateX(280px)
 }
 
 .mobile-menu-container .social-icons {
@@ -2603,23 +2600,19 @@ blockquote.text-white cite span {
     height: 3rem;
     position: absolute;
     top: .7rem;
-    
+    right: 1rem;
     padding: 0;
     z-index: 9;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1;
     color: #fff;
-    transition: color .35s;
-    -webkit-transition: color .35s;
-    -moz-transition: color .35s;
-    -ms-transition: color .35s;
-    -o-transition: color .35s;
+    transition: color .35s
 }
 
 .mobile-menu-close:hover,
 .mobile-menu-close:focus {
-    color: #fff
+    color: #c96
 }
 
 .mobile-menu-overlay {
@@ -2633,11 +2626,7 @@ blockquote.text-white cite span {
     z-index: 1000;
     transition: all 0.4s;
     visibility: hidden;
-    opacity: 0;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+    opacity: 0
 }
 
 .mmenu-active .mobile-menu-overlay {
@@ -2675,7 +2664,7 @@ blockquote.text-white cite span {
 
 .mobile-menu li a:hover,
 .mobile-menu li a:focus {
-    color: #959595;
+    color: #c96;
     text-decoration: none;
     outline: none !important
 }
@@ -2886,12 +2875,12 @@ blockquote.text-white cite span {
 }
 
 .mobile-menu-light .mobile-menu li a:not(:hover):not(:focus) {
-    color: #f5f5f7
+    color: #333
 }
 
 .mobile-menu-light .mobile-menu li.open>a,
 .mobile-menu-light .mobile-menu li.active>a {
-    color: lightgrey
+    color: #c96
 }
 
 .mobile-menu-light .mobile-menu li ul {
@@ -3829,8 +3818,8 @@ p {
 
 .btn-primary {
     color: #fff;
-    background-color: #333;
-    border-color: lightgrey;
+    background-color: #c96;
+    border-color: #c96;
     box-shadow: none
 }
 
@@ -3841,8 +3830,8 @@ p {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #777;
-    border-color: #333;
+    background-color: #a6c76c;
+    border-color: #a6c76c;
     box-shadow: none
 }
 
