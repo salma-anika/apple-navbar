@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Apple</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="">
+    <meta name="author" content="p-themes">
+    <!-- Favicon -->
+
+
+    <link rel="shortcut icon" href="image/apple-logo.png">
+    <meta name="apple-mobile-web-app-title" content="Apple">
+    <meta name="application-name" content="Apple">
+
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
+    <!-- Plugins CSS File -->
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+
+
+    <style>
+        body {
+          font-family: Arial;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .openBtn {
+          background: #f1f1f1;
+          border: none;
+          padding: 10px 15px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+        
+        .openBtn:hover {
+          background: #bbb;
+        }
+        
+        .overlay {
+          height: 100%;
+          width: 100%;
+          display: none;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+        }
+        
+        .overlay-content {
+          background-color: black;
+          position: relative;
+          width: 60%;
+          text-align: center;
+          margin-top: 30px;
+          margin: auto;
+          height: 34px !important;
+        }
+        
+        .overlay .closebtn {
+          position: absolute;
+          
+          left: 205px;
+          font-size: 25px;
+          cursor: pointer;
+          color: white;
+        }
+        
+        .overlay .closebtn:hover {
+          color: #ccc;
+        }
+        
+        .overlay input[type=text] {
+          padding: 15px;
+          font-size: 17px;
+          border: none;
+          float: left;
+          width: 80%;
+          height: 30px !important;
+          background: black;
+          outline: none;
+        }
+        
+        
+        
+        .overlay button {
+          float: left;
+          width: 20%;
+          color:#fff;
+          background: black;
+          font-size: 14px;
+          margin-top: 10px;
+          border: none;
+          cursor: pointer;
+        }
+        
+      
+
+.menu-search-input{
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    color: white;
+}
+
+.overlay-content a{
+
+    color: white;
+    left:800px ;
+    margin-top: 35px;
+    
+}
+ 
+        </style>
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header header-2 header-intro-clearance">
+            <div class="header-middle">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler">
+                            <span class="sr-only">Toggle mobile menu</span>
+                            <i class="icon-bars"></i>
+                            <a href="" class="mx-1">
+                                <img src="image/neo-1.png"  width="35" height="6" style="margin-left:170px ;">
+                            </a>
+    
+                            <div class="dropdown cart-dropdown ">
+                                <a href="#" class="dropdown-toggle " role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                                    <div class="icon">
+                                        <a href="menu-item" style="color:lightgrey; font-size:19px; margin-left: 190px;"><i class="bi bi-bag"></i>
+    
+                                        </a>
+                                       
+                                    </div>
+                                   
+                                </a>
+                            </div><!-- End .cart-dropdown -->
+                        </button>
+                      
+                    </div><!-- End .header-left -->
+
+
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+            <div class="header-bottom sticky-header">
+                <div class="container-fluid">
+                    <nav class="main-nav" style="margin: auto;height:50px;">
+                        <div class="menu-container">
+                            <ul class="menu" style="height:50px;">
+                                <li>
+                                    <a href="" class=""><img src="image/neo-3.png"
+                                            style="width: 30px; height: 20px; " /></a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-item" style="font-size:13px;">Store</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="menu-item">Mac</a>
+
+                                    <ul>
+                                        <li><a href="">Products</a></li>
+                                        <li><a href="">Typography</a></li>
+                                        <li><a href="">Titles</a></li>
+                                        <li><a href="">Banners</a></li>
+                                        <li><a href="">Product Category</a></li>
+                                        <li><a href="">Video Banners</a></li>
+                                        <li><a href="">Buttons</a></li>
+                                        <li><a href="">Accordions</a></li>
+                                        <li><a href="">Tabs</a></li>
+                                        <li><a href="">Testimonials</a></li>
+                                        <li><a href="">Blog Posts</a></li>
+                                        <li><a href="">Portfolio</a></li>
+                                        <li><a href="">Call to Action</a></li>
+                                        <li><a href="">Icon Boxes</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-item">iPad</a>
+
+                                    <ul>
+                                        <li><a href="">Products</a></li>
+                                        <li><a href="">Typography</a></li>
+                                        <li><a href="">Titles</a></li>
+                                        <li><a href="">Banners</a></li>
+                                        <li><a href="">Product Category</a></li>
+                                        <li><a href="">Video Banners</a></li>
+                                        <li><a href="">Buttons</a></li>
+                                        <li><a href="">Accordions</a></li>
+                                        <li><a href="">Tabs</a></li>
+                                        <li><a href="">Testimonials</a></li>
+                                        <li><a href="">Blog Posts</a></li>
+                                        <li><a href="">Portfolio</a></li>
+                                        <li><a href="">Call to Action</a></li>
+                                        <li><a href="">Icon Boxes</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-item">iPhone</a>
+
+                                    <ul>
+                                        <li><a href="">Products</a></li>
+                                        <li><a href="">Typography</a></li>
+                                        <li><a href="">Titles</a></li>
+                                        <li><a href="">Banners</a></li>
+                                        <li><a href="">Product Category</a></li>
+                                        <li><a href="">Video Banners</a></li>
+                                        <li><a href="">Buttons</a></li>
+                                        <li><a href="">Accordions</a></li>
+                                        <li><a href="">Tabs</a></li>
+                                        <li><a href="">Testimonials</a></li>
+                                        <li><a href="">Blog Posts</a></li>
+                                        <li><a href="">Portfolio</a></li>
+                                        <li><a href="">Call to Action</a></li>
+                                        <li><a href="">Icon Boxes</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-item">Watch</a>
+
+                                    <ul>
+                                        <li><a href="">Classic</a></li>
+                                        <li><a href="">Listing</a></li>
+                                        <li>
+                                            <a href="#">Grid</a>
+                                            <ul>
+                                                <li><a href="">Grid 2 columns</a></li>
+                                                <li><a href="">Grid 3 columns</a></li>
+                                                <li><a href="">Grid 4 columns</a></li>
+                                                <li><a href="">Grid sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Masonry</a>
+                                            <ul>
+                                                <li><a href="">Masonry 2 columns</a></li>
+                                                <li><a href="">Masonry 3 columns</a></li>
+                                                <li><a href="">Masonry 4 columns</a></li>
+                                                <li><a href="">Masonry sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mask</a>
+                                            <ul>
+                                                <li><a href="">Blog mask grid</a></li>
+                                                <li><a href="">Blog mask masonry</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Single Post</a>
+                                            <ul>
+                                                <li><a href="">Default with sidebar</a></li>
+                                                <li><a href="">Fullwidth no sidebar</a></li>
+                                                <li><a href="">Fullwidth with sidebar</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+
+                                    <a href="" class="menu-item">AirPods</a>
+
+                                    <ul>
+                                        <li><a href="">Products</a></li>
+                                        <li><a href="">Typography</a></li>
+                                        <li><a href="">Titles</a></li>
+                                        <li><a href="">Banners</a></li>
+                                        <li><a href="">Product Category</a></li>
+                                        <li><a href="">Video Banners</a></li>
+                                        <li><a href="">Buttons</a></li>
+                                        <li><a href="">Accordions</a></li>
+                                       
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="" class="menu-item">TV & Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="menu-item">Only on Apple</a>
+                                </li>
+
+                                <li>
+                                    <a href="" class="menu-item">Accessories</a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-item">Support</a>
+                                </li>
+                                <li class="menu-search" onclick="openSearch()">
+                                    <a href="" style="color:lightgrey;">
+                                        <i class="bi bi-search"></i>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="menu-item" style="color:lightgrey;"><i class="bi bi-bag"></i>
+
+                                    </a>
+
+                                    <ul style="border: 1px solid grey; border-radius:16px; margin-left:-76px ;">
+
+                                        <li style="margin-top: 8px;margin-bottom: 8px;"><a href=""
+                                                style="display: flex; border-bottom: 1px solid lightgrey; margin:10px;"><img
+                                                    src="image/bag.svg"
+                                                    style="width:20px;height:20px; margin-right:2px; " />
+                                                <p class="cart-list" style="color:#06c; ">Bag</p>
+                                            </a></li>
+                                        <li><a href=""
+                                                style="display: flex; border-bottom: 1px solid lightgrey; margin:10px;">
+                                                <img src="image/favorites.svg"
+                                                    style="width:20px;height:20px; margin-right:2px;" />
+                                                <p class="cart-list" style="color:#06c; ">Favourites</p>
+                                            </a></li>
+                                        <li><a href=""
+                                                style="display: flex; border-bottom: 1px solid lightgrey; margin:10px;">
+                                                <img src="image/account.svg"
+                                                    style="width:20px;height:20px; margin-right:2px;" />
+                                                <p class="cart-list" style="color:#06c; ">Account</p>
+                                            </a></li>
+                                        <li><a href=""
+                                                style="display: flex; border-bottom: 1px solid lightgrey; margin:10px;">
+                                                <img src="image/signIn.svg"
+                                                    style="width:20px;height:20px; margin-right:2px;" />
+                                                <p class="cart-list" style="color:#06c; ">Sign in</p>
+                                            </a></li>
+
+                                    </ul>
+
+                                </li>
+                            </ul><!-- End .menu -->
+
+
+                            <div id="myOverlay" class="overlay">
+                                <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                                <div class="overlay-content">
+                                    
+                                    <form action="">
+                                        
+                                        <input class="menu-search-input " type="text" aria-label="Search apple.com" placeholder="Search apple.com"
+                                          autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"> 
+
+                                          <button type="submit"><i class="fa fa-search"></i></button>
+                                      </form>
+                                </div>
+                              </div>
+                           
+                      
+                          
+
+                    </nav><!-- End .main-nav -->
+                </div><!-- End .header-center -->
+
+
+            </div><!-- End .container -->
+
+        </header><!-- End .header -->
+    </div><!-- End .page-wrapper -->
+
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div>
+    <!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+            <form action="#" method="get" class="mobile-search">
+                <label for="mobile-search" class="sr-only">Search</label>
+                <input type="search" class="form-control" name="mobile-search" id="mobile-search"
+                    placeholder="Search product ..." required>
+                <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </form>
+<hr>
+            
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel"
+                    aria-labelledby="mobile-menu-link">
+                    <nav class="mobile-nav">
+                        <ul class="mobile-menu">
+                            <li class="active">
+                                <a href="" class="font-weight-bold">Store</a>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">Mac</a>
+
+                                <ul>
+                                    <li><a href="" class="font-weight-bold">Products</a></li>
+                                    <li><a href="" class="font-weight-bold">Typography</a></li>
+                                    <li><a href="" class="font-weight-bold">Titles</a></li>
+                                    <li><a href="" class="font-weight-bold">Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Product Category</a></li>
+                                    <li><a href="" class="font-weight-bold">Video Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Buttons</a></li>
+                                    <li><a href="" class="font-weight-bold">Accordions</a></li>
+                                    <li><a href="" class="font-weight-bold">Tabs</a></li>
+                                    <li><a href="" class="font-weight-bold">Testimonials</a></li>
+                                    <li><a href="" class="font-weight-bold">Blog Posts</a></li>
+                                    <li><a href="" class="font-weight-bold">Portfolio</a></li>
+                                    <li><a href="" class="font-weight-bold">Call to Action</a></li>
+                                    <li><a href="" class="font-weight-bold">Icon Boxes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">iPad</a>
+
+                                <ul>
+                                    <li><a href="" class="font-weight-bold">Products</a></li>
+                                    <li><a href="" class="font-weight-bold">Typography</a></li>
+                                    <li><a href="" class="font-weight-bold">Titles</a></li>
+                                    <li><a href="" class="font-weight-bold">Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Product Category</a></li>
+                                    <li><a href="" class="font-weight-bold">Video Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Buttons</a></li>
+                                    <li><a href="" class="font-weight-bold">Accordions</a></li>
+                                    <li><a href="" class="font-weight-bold">Tabs</a></li>
+                                    <li><a href="" class="font-weight-bold">Testimonials</a></li>
+                                    <li><a href="" class="font-weight-bold">Blog Posts</a></li>
+                                    <li><a href="" class="font-weight-bold">Portfolio</a></li>
+                                    <li><a href="" class="font-weight-bold">Call to Action</a></li>
+                                    <li><a href="" class="font-weight-bold">Icon Boxes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">iPhone</a>
+
+                                <ul>
+                                    <li><a href="" class="font-weight-bold">Products</a></li>
+                                    <li><a href="" class="font-weight-bold">Typography</a></li>
+                                    <li><a href="" class="font-weight-bold">Titles</a></li>
+                                    <li><a href="" class="font-weight-bold">Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Product Category</a></li>
+                                    <li><a href="" class="font-weight-bold">Video Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Buttons</a></li>
+                                    <li><a href="" class="font-weight-bold">Accordions</a></li>
+                                    <li><a href="" class="font-weight-bold">Tabs</a></li>
+                                    <li><a href="" class="font-weight-bold">Testimonials</a></li>
+                                    <li><a href="" class="font-weight-bold">Blog Posts</a></li>
+                                    <li><a href="" class="font-weight-bold">Portfolio</a></li>
+                                    <li><a href="" class="font-weight-bold">Call to Action</a></li>
+                                    <li><a href="" class="font-weight-bold">Icon Boxes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">Watch</a>
+
+                                <ul>
+                                    <li><a href="" class="font-weight-bold">Classic</a></li>
+                                    <li><a href="" class="font-weight-bold">Listing</a></li>
+                                    <li>
+                                        <a href="#" class="font-weight-bold">Grid</a>
+                                        <ul>
+                                            <li><a href="" class="font-weight-bold">Grid 2 columns</a></li>
+                                            <li><a href="" class="font-weight-bold">Grid 3 columns</a></li>
+                                            <li><a href="" class="font-weight-bold">Grid 4 columns</a></li>
+                                            <li><a href="" class="font-weight-bold">Grid sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="font-weight-bold">Masonry</a>
+                                        <ul>
+                                            <li><a href="" class="font-weight-bold">Masonry 2 columns</a></li>
+                                            <li><a href="" class="font-weight-bold"> Masonry 3 columns</a></li>
+                                            <li><a href="" class="font-weight-bold">Masonry 4 columns</a></li>
+                                            <li><a href="" class="font-weight-bold">Masonry sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="font-weight-bold">Mask</a>
+                                        <ul>
+                                            <li><a href="" class="font-weight-bold">Blog mask grid</a></li>
+                                            <li><a href="" class="font-weight-bold">Blog mask masonry</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="font-weight-bold">Single Post</a>
+                                        <ul>
+                                            <li><a href="" class="font-weight-bold">Default with sidebar</a></li>
+                                            <li><a href="" class="font-weight-bold">Fullwidth no sidebar</a></li>
+                                            <li><a href="" class="font-weight-bold">Fullwidth with sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">AirPods</a>
+                                <ul>
+                                    <li><a href="" class="font-weight-bold">Products</a></li>
+                                    <li><a href="" class="font-weight-bold">Typography</a></li>
+                                    <li><a href="" class="font-weight-bold">Titles</a></li>
+                                    <li><a href="" class="font-weight-bold">Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Product Category</a></li>
+                                    <li><a href="" class="font-weight-bold">Video Banners</a></li>
+                                    <li><a href="" class="font-weight-bold">Buttons</a></li>
+                                    <li><a href="" class="font-weight-bold">Accordions</a></li>
+                                    <li><a href="" class="font-weight-bold">Tabs</a></li>
+                                    <li><a href="" class="font-weight-bold">Testimonials</a></li>
+                                    <li><a href="" class="font-weight-bold">Blog Posts</a></li>
+                                    <li><a href="" class="font-weight-bold">Portfolio</a></li>
+                                    <li><a href="" class="font-weight-bold">Call to Action</a></li>
+                                    <li><a href="" class="font-weight-bold">Icon Boxes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">TV & Home</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="font-weight-bold">Only on Apple</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="font-weight-bold">Accessories</a>
+                            </li>
+                            <li>
+                                <a href="" class="font-weight-bold">Support</a>
+                            </li>
+                        </ul>
+                    </nav><!-- End .mobile-nav -->
+                </div><!-- .End .tab-pane -->
+                <div class="tab-pane fade" id="mobile-cats-tab" role="tabpanel" aria-labelledby="mobile-cats-link">
+                    <nav class="mobile-cats-nav">
+                        <ul class="mobile-cats-menu">
+
+                        </ul><!-- End .mobile-cats-menu -->
+                    </nav><!-- End .mobile-cats-nav -->
+                </div><!-- .End .tab-pane -->
+            </div><!-- End .tab-content -->
+
+            
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+
+
+
+
+    <!-- Plugins JS File -->
+
+    <script>
+        function openSearch() {
+          document.getElementById("myOverlay").style.display = "block";
+        }
+        
+        function closeSearch() {
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>
+ 
+ <script  src="./script.js"></script>
+ <script
+ src="https://code.jquery.com/jquery-3.6.0.min.js"
+ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+ crossorigin="anonymous"></script>
+   
+    <script src="assets/js/jquery.plugin.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.hoverIntent.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/superfish.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.plugin.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>   
+</body>
+
+
+</html>
